@@ -10,7 +10,7 @@ int main()
 	printf("Enter you date (dd.mm.yyyy hh:mm): ");
 	scanf("%d.%d.%d %d:%d", &d, &m, &y, &h, &min);
 
-	struct tm *t;
+	struct tm *t; // стандартная структура
 
 	t = malloc(sizeof(struct tm));
 
@@ -22,7 +22,6 @@ int main()
 	t->tm_min = min;
 	t->tm_sec = 0;
 	t->tm_wday = 0;
-
 
 	time_t newTime;
 	newTime = mktime(t);
