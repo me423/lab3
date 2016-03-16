@@ -29,7 +29,7 @@ int main()
 	double delta = 0;
 	delta = difftime(curTime, newTime);
 
-	printf("Your age in seconds: %lf \n", delta);
+	printf("Your age in seconds: %lf \n", delta);// вывод
 
 	return 0;
 }
