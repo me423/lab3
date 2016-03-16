@@ -12,6 +12,7 @@ int main()
 
 	struct tm *t; // стандартная структура
 
+
 	t = malloc(sizeof(struct tm));
 
 	t->tm_mday = d;
