@@ -4,7 +4,7 @@
 
 int main()
 {
-	time_t curTime;
+	time_t curTime; //для хранения времени
 	curTime = time(NULL);
 	int d = 0, m = 0, y = 0, h = 0, min = 0;
 	printf("Enter you date (dd.mm.yyyy hh:mm): ");
@@ -30,6 +30,7 @@ int main()
 	delta = difftime(curTime, newTime);
 
 	printf("Your age in seconds: %lf \n", delta);// вывод
-
 	return 0;
+
+//asadskfllssdadas
 }
